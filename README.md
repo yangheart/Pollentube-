@@ -5,7 +5,7 @@ Unveiling Two reaction-diffusion systems with fractional or integral forms throu
 
 This repository contains the modified PDE-Net.
 
-The fundamental concept of the PDE-Net method, elucidated in [1], revolves around leveraging a deep convolutional neural network (CNN) to analyze general nonlinear evolution partial differential equations (PDEs) expressed as follows:
+The fundamental concept of the PDE-Net method, elucidated in \cite{LLD19}, revolves around leveraging a deep convolutional neural network (CNN) to analyze general nonlinear evolution partial differential equations (PDEs) expressed as follows:
 
 \[
 \frac{\partial u}{\partial t} = F(\z, u, \nabla u, \nabla^2 u,...), \quad \z \in \Omega, \, t \in [0, T], \quad \text{(1)}
@@ -25,9 +25,9 @@ We mainly modified polypde.py in order to satisfy our equations with Neumann bou
 
 You can directly get the trained model from checkpoint or you can run 2dsimulation.py or 1dsimulation.py to get the model. The data in 2d equation is generated from initcsc2d.py and initb2815.py in pedtools of aTEAM. For 1d equation, we use data in the data file.
 
-## $L^2$ norm-based term selection criterion and STRidge in [2]
+## $L^2$ norm-based term selection criterion and STRidge in \cite{RABK19}
 While mPDE-Net demonstrates accurate fitting of data and effective recovery of terms, it occasionally falls short in simplifying the learned PDE, posing challenges in interpretation.
 ## References
 
 - [LLD19] Long, Z., Lu, Y., & Dong, B. (2019). "PDE-Net 2.0: Learning PDEs from data with a numeric-symbolic hybrid deep network." *Journal of Computational Physics*, 108925.
-- [RABK19] S. Rudy, A. Alla, S. L. Brunton, J. N. Kutz, "Data-driven identification of parametric partial differential equations," *SIAM Journal on Applied Dynamical Systems*, vol. 18, no. 2, pp. 643-660, 2019. [DOI: InsertDOIHere]
+- [RABK19] S. Rudy, A. Alla, S. L. Brunton, J. N. Kutz, "Data-driven identification of parametric partial differential equations," *SIAM Journal on Applied Dynamical Systems*, vol. 18, no. 2, pp. 643-660, 2019. 
