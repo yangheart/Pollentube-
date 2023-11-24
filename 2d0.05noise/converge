@@ -1,0 +1,140 @@
+device:  cpu
+generate a random number to check random seed:  -0.0054993018261950966
+current stage is: warmup
+iter:     0    time: 7.50
+stableloss: 2.89e-06   dataloss: 3.31e+01   sparseloss: 2.64e+01 momentloss: 7.27e+00
+finally, finish this stage
+iter:    95    time: 95.18
+stableloss: 7.21e-04   dataloss: 3.12e+01   sparseloss: 3.58e+01 momentloss: 7.27e+00
+current expression:
+[u00, 1, u00*v00/(1.0*u00**2 + 0.301598522760232*u00 + 0.271157755348835), u02, u20, v00, v00/(1.0*u00**2 + 0.301598522760232*u00 + 0.271157755348835), u00/(1.0*v00**2 + 0.501549487961606*v00 + 0.500795163368271), u00*v00/(1.0*v00**2 + 0.501549487961606*v00 + 0.500795163368271)]
+[ 0.99  0.94 -0.62  0.44  0.44 -0.44  0.13  0.    0.  ]
+[1, u00*v00/(1.0*u00**2 + 0.455348202454367*u00 + 0.436300537817787), v02, v20, u00, v00, v00/(1.0*u00**2 + 0.455348202454367*u00 + 0.436300537817787), u00/(1.0*v00**2 + 0.499753503586319*v00 + 0.499781437530633), u00*v00/(1.0*v00**2 + 0.499753503586319*v00 + 0.499781437530633), u00*v00, v00**2, u00**2]
+[-1.64e+00 -7.81e-01  5.13e-01  5.13e-01  4.40e-01  2.49e-01  7.38e-02  3.82e-03
+  3.81e-03  5.43e-05  2.71e-05  2.63e-05]
+device:  cpu
+generate a random number to check random seed:  2.4288601794479376
+current stage is: block-1
+iter:     0    time: 2.36
+stableloss: 1.34e-03   dataloss: 2.90e+01   sparseloss: 3.58e+01 momentloss: 7.38e+00
+finally, finish this stage
+iter:   152    time: 125.30
+stableloss: 2.56e-03   dataloss: 2.58e+01   sparseloss: 3.98e+01 momentloss: 3.92e+01
+current expression:
+[v00/(1.0*u00**2 + 1.79382699007287*u00 + 1.16795033368936), u00, v00, u00*v00/(1.0*u00**2 + 1.79382699007287*u00 + 1.16795033368936), 1, u20, u02, u00*v00/(1.0*v00**2 + 0.322058714416716*v00 + 0.321649148654665), u00/(1.0*v00**2 + 0.322058714416716*v00 + 0.321649148654665)]
+[ 2.70e+00  2.31e+00 -1.81e+00  1.51e+00 -7.66e-01  1.85e-01  1.85e-01 -2.73e-05
+ -2.72e-05]
+[u00*v00/(1.0*u00**2 + 0.432706555445406*u00 + 0.789147310700082), u00, 1, v00, v20, v02, v00/(1.0*u00**2 + 0.432706555445406*u00 + 0.789147310700082)]
+[-1.35  1.09  0.41 -0.26  0.21  0.21  0.04]
+device:  cpu
+generate a random number to check random seed:  -0.28065482729881563
+current stage is: block-2
+iter:     0    time: 4.61
+stableloss: 4.36e-03   dataloss: 5.25e+01   sparseloss: 3.98e+01 momentloss: 3.92e+01
+finally, finish this stage
+iter:    88    time: 167.34
+stableloss: 3.55e-03   dataloss: 5.17e+01   sparseloss: 3.14e+01 momentloss: 2.44e+01
+current expression:
+[1, u00*v00/(1.0*u00**2 + 0.503723376488429*u00 + 0.397578781390624), u00, u20, u02, v00, v00/(1.0*u00**2 + 0.503723376488429*u00 + 0.397578781390624)]
+[ 0.7  -0.67 -0.31  0.26  0.26 -0.12  0.08]
+[u00*v00/(1.0*u00**2 + 0.266534458173955*u00 + 0.46046589452277), 1, u00, v20, v02, v00, v00/(1.0*u00**2 + 0.266534458173955*u00 + 0.46046589452277)]
+[-0.85  0.59  0.42  0.31  0.31 -0.19 -0.03]
+device:  cpu
+generate a random number to check random seed:  -1.9143801529847875
+current stage is: block-3
+iter:     0    time: 5.91
+stableloss: 5.25e-03   dataloss: 7.72e+01   sparseloss: 3.14e+01 momentloss: 2.44e+01
+finally, finish this stage
+iter:    45    time: 148.72
+stableloss: 4.85e-03   dataloss: 7.68e+01   sparseloss: 3.09e+01 momentloss: 2.01e+01
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.311444396661318*u00 + 0.320771678750361), u20, u02, v00/(1.0*u00**2 + 0.311444396661318*u00 + 0.320771678750361), v00]
+[ 9.28e-01 -7.93e-01 -6.00e-01  2.79e-01  2.79e-01  4.09e-03 -8.03e-04]
+[u00*v00/(1.0*u00**2 + 0.26883297705229*u00 + 0.380843174572804), 1, v20, v02, u00, v00, v00/(1.0*u00**2 + 0.26883297705229*u00 + 0.380843174572804)]
+[-0.71  0.52  0.35  0.35  0.33 -0.23 -0.  ]
+device:  cpu
+generate a random number to check random seed:  -2.4329512777814424
+current stage is: block-4
+iter:     0    time: 6.81
+stableloss: 6.64e-03   dataloss: 1.01e+02   sparseloss: 3.09e+01 momentloss: 2.01e+01
+finally, finish this stage
+iter:    94    time: 331.59
+stableloss: 6.26e-03   dataloss: 1.01e+02   sparseloss: 2.82e+01 momentloss: 1.60e+01
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.271439156327118*u00 + 0.280723746026783), u20, u02, v00, v00/(1.0*u00**2 + 0.271439156327118*u00 + 0.280723746026783)]
+[ 9.63e-01 -9.16e-01 -5.41e-01  2.85e-01  2.85e-01  6.70e-03 -8.51e-04]
+[u00*v00/(1.0*u00**2 + 0.261840543510157*u00 + 0.347093936018792), 1, v20, v02, u00, v00, v00/(1.0*u00**2 + 0.261840543510157*u00 + 0.347093936018792)]
+[-0.65  0.46  0.37  0.37  0.21 -0.21 -0.  ]
+device:  cpu
+generate a random number to check random seed:  -1.3046822357223637
+current stage is: block-5
+iter:     0    time: 11.60
+stableloss: 8.09e-03   dataloss: 1.25e+02   sparseloss: 2.82e+01 momentloss: 1.60e+01
+finally, finish this stage
+iter:    48    time: 237.76
+stableloss: 7.86e-03   dataloss: 1.24e+02   sparseloss: 2.79e+01 momentloss: 1.46e+01
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.261306333926334*u00 + 0.266531206914538), u20, u02, v00, v00/(1.0*u00**2 + 0.261306333926334*u00 + 0.266531206914538)]
+[ 9.81e-01 -9.45e-01 -5.23e-01  2.91e-01  2.91e-01  2.60e-03 -2.69e-04]
+[u00*v00/(1.0*u00**2 + 0.259762811712384*u00 + 0.310169210843987), 1, v20, v02, v00, u00, v00/(1.0*u00**2 + 0.259762811712384*u00 + 0.310169210843987)]
+[-0.59  0.45  0.38  0.38 -0.21  0.12 -0.  ]
+device:  cpu
+generate a random number to check random seed:  0.2394075841455643
+current stage is: block-6
+iter:     0    time: 17.58
+stableloss: 9.60e-03   dataloss: 1.48e+02   sparseloss: 2.79e+01 momentloss: 1.46e+01
+finally, finish this stage
+iter:    31    time: 318.22
+stableloss: 9.48e-03   dataloss: 1.47e+02   sparseloss: 2.78e+01 momentloss: 1.36e+01
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.263203410531625*u00 + 0.267847122325881), u20, u02, v00, v00/(1.0*u00**2 + 0.263203410531625*u00 + 0.267847122325881)]
+[ 0.99 -0.95 -0.53  0.29  0.29  0.   -0.  ]
+[u00*v00/(1.0*u00**2 + 0.247340089692385*u00 + 0.293700352129788), 1, v20, v02, v00, u00, v00/(1.0*u00**2 + 0.247340089692385*u00 + 0.293700352129788)]
+[-0.56  0.44  0.38  0.38 -0.2   0.07 -0.01]
+device:  cpu
+generate a random number to check random seed:  1.794642590740389
+current stage is: block-9
+iter:     0    time: 26.66
+stableloss: 1.50e-02   dataloss: 2.15e+02   sparseloss: 2.78e+01 momentloss: 1.36e+01
+finally, finish this stage
+iter:    54    time: 547.66
+stableloss: 1.45e-02   dataloss: 2.14e+02   sparseloss: 2.77e+01 momentloss: 1.09e+01
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.261845682222314*u00 + 0.264156614793725), u20, u02, v00, v00/(1.0*u00**2 + 0.261845682222314*u00 + 0.264156614793725)]
+[ 1.   -0.96 -0.52  0.29  0.29 -0.   -0.  ]
+[u00*v00/(1.0*u00**2 + 0.248882111339263*u00 + 0.276216852996006), 1, v20, v02, v00, u00, v00/(1.0*u00**2 + 0.248882111339263*u00 + 0.276216852996006)]
+[-0.54  0.42  0.39  0.39 -0.19  0.02 -0.  ]
+device:  cpu
+generate a random number to check random seed:  0.16499729988122697
+current stage is: block-12
+iter:     0    time: 34.43
+stableloss: 2.00e-02   dataloss: 2.78e+02   sparseloss: 2.77e+01 momentloss: 1.09e+01
+finally, finish this stage
+iter:    40    time: 653.05
+stableloss: 1.99e-02   dataloss: 2.77e+02   sparseloss: 2.76e+01 momentloss: 9.98e+00
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.24716947228321*u00 + 0.256394283806037), u20, u02, v00/(1.0*u00**2 + 0.24716947228321*u00 + 0.256394283806037), v00]
+[ 1.02 -1.01 -0.51  0.29  0.29 -0.    0.  ]
+[u00*v00/(1.0*u00**2 + 0.252206075999929*u00 + 0.270642472543916), 1, v20, v02, v00, u00, v00/(1.0*u00**2 + 0.252206075999929*u00 + 0.270642472543916)]
+[-0.53  0.41  0.39  0.39 -0.2   0.02 -0.  ]
+device:  cpu
+generate a random number to check random seed:  1.4284509331363933
+current stage is: block-15
+iter:     0    time: 43.18
+stableloss: 2.56e-02   dataloss: 3.39e+02   sparseloss: 2.76e+01 momentloss: 9.97e+00
+finally, finish this stage
+iter:    50    time: 780.04
+stableloss: 2.56e-02   dataloss: 3.39e+02   sparseloss: 2.76e+01 momentloss: 9.04e+00
+current expression:
+[1, u00, u00*v00/(1.0*u00**2 + 0.25488950789362*u00 + 0.257304836935724), u20, u02, v00, v00/(1.0*u00**2 + 0.25488950789362*u00 + 0.257304836935724)]
+[ 1.01 -0.99 -0.51  0.3   0.3  -0.   -0.  ]
+[u00*v00/(1.0*u00**2 + 0.252608602212288*u00 + 0.266239556147262), 1, v20, v02, v00, u00, v00/(1.0*u00**2 + 0.252608602212288*u00 + 0.266239556147262)]
+[-0.52  0.41  0.39  0.39 -0.19  0.02 -0.  ]
+u_obs.abs().max()
+tensor(2.0666, dtype=torch.float64)
+v_obs.abs().max()
+tensor(5.3383, dtype=torch.float64)
+model(u_obs[0],T=20*dt).abs().max()
+tensor(4.9214, dtype=torch.float64)
+model(u_obs[0],T=30*dt).abs().max()
+tensor(4.7906, dtype=torch.float64)
