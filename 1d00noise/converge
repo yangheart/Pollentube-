@@ -1,0 +1,213 @@
+device:  cuda
+generate a random number to check random seed:  1.3161964953769663
+current stage is: warmup
+iter:     0    time: 0.63
+Func: 2.29e-02  |g|: 3.94e-02
+stableloss: 1.41e-03   dataloss: 2.29e-02   sparseloss: 3.16e+01 momentloss: 1.50e+00
+iter:   200    time: 40.57
+Func: 7.14e-05  |g|: 8.50e-04
+stableloss: 1.95e-01   dataloss: 7.14e-05   sparseloss: 5.26e+01 momentloss: 1.50e+00
+iter:   400    time: 39.18
+Func: 2.42e-05  |g|: 4.55e-03
+stableloss: 1.96e-01   dataloss: 2.42e-05   sparseloss: 6.36e+01 momentloss: 1.50e+00
+iter:   600    time: 36.95
+Func: 1.21e-05  |g|: 1.98e-03
+stableloss: 1.95e-01   dataloss: 1.21e-05   sparseloss: 5.70e+01 momentloss: 1.50e+00
+finally, finish this stage
+iter:   684    time: 15.82
+Func: 1.21e-05  |g|: 9.77e-09
+stableloss: 1.96e-01   dataloss: 1.21e-05   sparseloss: 5.79e+01 momentloss: 1.50e+00
+current expression:
+[exp(0.716446893816723*lnu), u0, I*exp(0.716446893816723*lnu), u0*v0/(1.0*v0**2 + 0.00707752405551623*v0 + 0.0279954767694608), u0/(1.0*v0**2 + 0.00707752405551623*v0 + 0.0279954767694608), u2, v0]
+[ 3.46 -3.31 -0.23 -0.15  0.1   0.09  0.  ]
+[v2, u0, v0]
+[ 9.66  0.98 -0.42]
+device:  cuda
+generate a random number to check random seed:  -2.758766196202947
+current stage is: block-1
+iter:     0    time: 0.48
+Func: 3.03e-05  |g|: 3.13e-04
+stableloss: 1.96e-01   dataloss: 1.18e-05   sparseloss: 5.79e+01 momentloss: 1.50e+00
+iter:   200    time: 36.59
+Func: 2.84e-05  |g|: 1.68e-04
+stableloss: 1.96e-01   dataloss: 1.08e-05   sparseloss: 5.36e+01 momentloss: 1.64e+00
+iter:   400    time: 38.21
+Func: 2.66e-05  |g|: 3.08e-05
+stableloss: 1.96e-01   dataloss: 1.08e-05   sparseloss: 4.74e+01 momentloss: 1.58e+00
+iter:   600    time: 37.90
+Func: 2.61e-05  |g|: 2.17e-04
+stableloss: 1.95e-01   dataloss: 1.08e-05   sparseloss: 4.54e+01 momentloss: 1.58e+00
+iter:   800    time: 37.51
+Func: 2.56e-05  |g|: 2.93e-05
+stableloss: 1.96e-01   dataloss: 1.10e-05   sparseloss: 4.33e+01 momentloss: 1.55e+00
+finally, finish this stage
+iter:  1000    time: 38.38
+Func: 2.54e-05  |g|: 1.46e-05
+stableloss: 1.95e-01   dataloss: 1.10e-05   sparseloss: 4.26e+01 momentloss: 1.56e+00
+current expression:
+[exp(0.741589005149733*lnu), u0, I*exp(0.741589005149733*lnu), u2, u0/(1.0*v0**2 - 0.0151318721002991*v0 + 0.0191146036495596), v0, u0*v0/(1.0*v0**2 - 0.0151318721002991*v0 + 0.0191146036495596), u0*v0, u0**2]
+[ 3.40e+00 -3.34e+00 -2.40e-01  9.04e-02  6.20e-02  1.06e-03 -6.54e-05 -7.55e-06
+  3.34e-06]
+[v2, u0, v0]
+[ 9.65  0.98 -0.42]
+device:  cuda
+generate a random number to check random seed:  -0.31118285642768106
+current stage is: block-2
+iter:     0    time: 0.60
+Func: 4.91e-05  |g|: 5.12e-04
+stableloss: 3.67e-01   dataloss: 2.03e-05   sparseloss: 4.26e+01 momentloss: 1.56e+00
+iter:   200    time: 47.42
+Func: 4.79e-05  |g|: 3.52e-04
+stableloss: 3.69e-01   dataloss: 1.94e-05   sparseloss: 4.18e+01 momentloss: 1.56e+00
+iter:   400    time: 48.28
+Func: 4.76e-05  |g|: 1.21e-04
+stableloss: 3.69e-01   dataloss: 1.94e-05   sparseloss: 4.14e+01 momentloss: 1.56e+00
+iter:   600    time: 48.08
+Func: 4.73e-05  |g|: 4.48e-05
+stableloss: 3.69e-01   dataloss: 1.93e-05   sparseloss: 4.09e+01 momentloss: 1.57e+00
+iter:   800    time: 48.45
+Func: 4.72e-05  |g|: 3.40e-05
+stableloss: 3.69e-01   dataloss: 1.94e-05   sparseloss: 4.07e+01 momentloss: 1.56e+00
+finally, finish this stage
+iter:  1000    time: 48.34
+Func: 4.71e-05  |g|: 1.07e-04
+stableloss: 3.69e-01   dataloss: 1.95e-05   sparseloss: 4.04e+01 momentloss: 1.55e+00
+current expression:
+[exp(0.741453033960845*lnu), u0, I*exp(0.741453033960845*lnu), u2, u0/(1.0*v0**2 - 0.0088129878553495*v0 + 0.0198243997482222), v0, u0*v0/(1.0*v0**2 - 0.0088129878553495*v0 + 0.0198243997482222)]
+[ 3.42e+00 -3.37e+00 -2.39e-01  9.01e-02  6.56e-02  9.95e-04  2.46e-05]
+[v2, u0, v0]
+[ 9.69  0.98 -0.42]
+device:  cuda
+generate a random number to check random seed:  -0.2888199564889187
+current stage is: block-3
+iter:     0    time: 0.76
+Func: 6.91e-05  |g|: 3.08e-04
+stableloss: 5.21e-01   dataloss: 2.77e-05   sparseloss: 4.04e+01 momentloss: 1.55e+00
+iter:   200    time: 55.42
+Func: 6.82e-05  |g|: 3.73e-04
+stableloss: 5.23e-01   dataloss: 2.69e-05   sparseloss: 4.03e+01 momentloss: 1.56e+00
+iter:   400    time: 57.02
+Func: 6.81e-05  |g|: 1.62e-05
+stableloss: 5.23e-01   dataloss: 2.69e-05   sparseloss: 4.02e+01 momentloss: 1.54e+00
+iter:   600    time: 57.18
+Func: 6.81e-05  |g|: 2.15e-05
+stableloss: 5.23e-01   dataloss: 2.68e-05   sparseloss: 4.02e+01 momentloss: 1.55e+00
+finally, finish this stage
+iter:   720    time: 33.13
+Func: 6.81e-05  |g|: 1.49e-08
+stableloss: 5.23e-01   dataloss: 2.69e-05   sparseloss: 4.02e+01 momentloss: 1.55e+00
+current expression:
+[exp(0.748155841764403*lnu), u0, I*exp(0.748155841764403*lnu), u2, u0/(1.0*v0**2 - 0.000290768511323829*v0 + 0.0205477158967268), u0*v0/(1.0*v0**2 - 0.000290768511323829*v0 + 0.0205477158967268), v0]
+[ 3.45e+00 -3.37e+00 -2.45e-01  9.08e-02  6.97e-02 -9.47e-05  8.81e-05]
+[v2, u0, v0]
+[ 9.7   0.98 -0.41]
+device:  cuda
+generate a random number to check random seed:  -0.2728742485723373
+current stage is: block-4
+iter:     0    time: 0.77
+Func: 8.91e-05  |g|: 3.60e-04
+stableloss: 6.59e-01   dataloss: 3.41e-05   sparseloss: 4.02e+01 momentloss: 1.55e+00
+iter:   200    time: 61.56
+Func: 8.85e-05  |g|: 3.11e-08
+stableloss: 6.61e-01   dataloss: 3.35e-05   sparseloss: 4.03e+01 momentloss: 1.55e+00
+finally, finish this stage
+iter:   226    time: 6.84
+Func: 8.85e-05  |g|: 1.48e-08
+stableloss: 6.61e-01   dataloss: 3.35e-05   sparseloss: 4.03e+01 momentloss: 1.55e+00
+current expression:
+[exp(0.749980665733124*lnu), u0, I*exp(0.749980665733124*lnu), u2, u0/(1.0*v0**2 + 0.00798969251267145*v0 + 0.02114724850708), v0, u0*v0/(1.0*v0**2 + 0.00798969251267145*v0 + 0.02114724850708)]
+[ 3.48e+00 -3.38e+00 -2.47e-01  9.16e-02  7.34e-02 -1.02e-03 -7.90e-05]
+[v2, u0, v0]
+[ 9.71  0.98 -0.41]
+device:  cuda
+generate a random number to check random seed:  -0.26548991747956857
+current stage is: block-5
+iter:     0    time: 1.18
+Func: 1.08e-04  |g|: 4.65e-04
+stableloss: 7.80e-01   dataloss: 3.98e-05   sparseloss: 4.03e+01 momentloss: 1.55e+00
+iter:   200    time: 68.39
+Func: 1.08e-04  |g|: 4.06e-08
+stableloss: 7.82e-01   dataloss: 3.92e-05   sparseloss: 4.04e+01 momentloss: 1.54e+00
+finally, finish this stage
+iter:   225    time: 22.68
+Func: 1.08e-04  |g|: 1.48e-08
+stableloss: 7.82e-01   dataloss: 3.92e-05   sparseloss: 4.04e+01 momentloss: 1.54e+00
+current expression:
+[exp(0.751173163098079*lnu), u0, I*exp(0.751173163098079*lnu), u2, u0/(1.0*v0**2 + 0.0160160320067058*v0 + 0.0216396925230182), v0, u0*v0/(1.0*v0**2 + 0.0160160320067058*v0 + 0.0216396925230182)]
+[ 3.51e+00 -3.40e+00 -2.50e-01  9.28e-02  7.68e-02 -2.32e-03 -6.00e-05]
+[v2, u0, v0]
+[ 9.72  0.98 -0.41]
+device:  cuda
+generate a random number to check random seed:  -0.8482266969414194
+current stage is: block-6
+iter:     0    time: 0.98
+Func: 1.27e-04  |g|: 4.14e-04
+stableloss: 8.86e-01   dataloss: 4.45e-05   sparseloss: 4.04e+01 momentloss: 1.54e+00
+iter:   200    time: 75.35
+Func: 1.27e-04  |g|: 4.31e-07
+stableloss: 8.87e-01   dataloss: 4.40e-05   sparseloss: 4.05e+01 momentloss: 1.54e+00
+finally, finish this stage
+iter:   205    time: 1.50
+Func: 1.27e-04  |g|: 1.25e-08
+stableloss: 8.87e-01   dataloss: 4.40e-05   sparseloss: 4.05e+01 momentloss: 1.54e+00
+current expression:
+[exp(0.763170581977479*lnu), u0, I*exp(0.763170581977479*lnu), u2, u0/(1.0*v0**2 + 0.0213121138805784*v0 + 0.0219115917974696), v0, u0*v0/(1.0*v0**2 + 0.0213121138805784*v0 + 0.0219115917974696)]
+[ 3.53e+00 -3.36e+00 -2.59e-01  9.36e-02  7.89e-02 -4.23e-03 -3.62e-05]
+[v2, u0, v0]
+[ 9.72  0.98 -0.41]
+device:  cuda
+generate a random number to check random seed:  1.2902880206220813
+current stage is: block-9
+iter:     0    time: 1.30
+Func: 1.79e-04  |g|: 3.98e-03
+stableloss: 1.12e+00   dataloss: 5.54e-05   sparseloss: 4.05e+01 momentloss: 1.54e+00
+iter:   200    time: 96.80
+Func: 1.78e-04  |g|: 3.38e-07
+stableloss: 1.13e+00   dataloss: 5.40e-05   sparseloss: 4.06e+01 momentloss: 1.54e+00
+finally, finish this stage
+iter:   207    time: 2.83
+Func: 1.78e-04  |g|: 1.00e-08
+stableloss: 1.13e+00   dataloss: 5.40e-05   sparseloss: 4.06e+01 momentloss: 1.54e+00
+current expression:
+[exp(0.777064919924257*lnu), u0, I*exp(0.777064919924257*lnu), u2, u0/(1.0*v0**2 + 0.0227232556000178*v0 + 0.0218305876174238), v0, u0*v0/(1.0*v0**2 + 0.0227232556000178*v0 + 0.0218305876174238)]
+[ 3.57e+00 -3.30e+00 -2.72e-01  9.55e-02  7.92e-02 -7.37e-03  5.98e-06]
+[v2, u0, v0]
+[ 9.71  0.98 -0.41]
+device:  cuda
+generate a random number to check random seed:  0.107739263770664
+current stage is: block-12
+iter:     0    time: 1.70
+Func: 2.27e-04  |g|: 8.01e-04
+stableloss: 1.28e+00   dataloss: 6.19e-05   sparseloss: 4.06e+01 momentloss: 1.54e+00
+finally, finish this stage
+iter:   182    time: 139.11
+Func: 2.26e-04  |g|: 3.53e-08
+stableloss: 1.28e+00   dataloss: 6.15e-05   sparseloss: 4.05e+01 momentloss: 1.54e+00
+current expression:
+[exp(0.773384531142963*lnu), u0, I*exp(0.773384531142963*lnu), u2, u0/(1.0*v0**2 + 0.0170814416862415*v0 + 0.0214700057291356), v0, u0*v0/(1.0*v0**2 + 0.0170814416862415*v0 + 0.0214700057291356)]
+[ 3.57e+00 -3.31e+00 -2.70e-01  9.62e-02  7.70e-02 -7.08e-03  6.27e-06]
+[v2, u0, v0]
+[ 9.7   0.97 -0.41]
+device:  cuda
+generate a random number to check random seed:  -0.3817259046847447
+current stage is: block-15
+iter:     0    time: 2.04
+Func: 2.74e-04  |g|: 7.29e-04
+stableloss: 1.37e+00   dataloss: 6.86e-05   sparseloss: 4.05e+01 momentloss: 1.54e+00
+finally, finish this stage
+iter:   182    time: 152.86
+Func: 2.74e-04  |g|: 3.06e-08
+stableloss: 1.37e+00   dataloss: 6.83e-05   sparseloss: 4.05e+01 momentloss: 1.54e+00
+current expression:
+[exp(0.77043707904476*lnu), u0, I*exp(0.77043707904476*lnu), u2, u0/(1.0*v0**2 + 0.0121384065090261*v0 + 0.0212174850560234), v0, u0*v0/(1.0*v0**2 + 0.0121384065090261*v0 + 0.0212174850560234)]
+[ 3.56e+00 -3.32e+00 -2.67e-01  9.61e-02  7.52e-02 -5.74e-03 -2.28e-06]
+[v2, u0, v0]
+[ 9.69  0.97 -0.4 ]
+u_obs.abs().max()
+tensor(0.5000, device='cuda:0', dtype=torch.float64)
+v_obs.abs().max()
+tensor(0.5126, device='cuda:0', dtype=torch.float64)
+model(u_obs[0],T=20*dt).abs().max()
+tensor(1.3385e+45, device='cuda:0', dtype=torch.float64)
+model(u_obs[0],T=30*dt).abs().max()
+tensor(9.5164e+71, device='cuda:0', dtype=torch.float64)
