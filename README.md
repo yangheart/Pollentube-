@@ -21,7 +21,7 @@ We mainly modified polypde.py in order to satisfy our equations with Neumann bou
 | Model 1 | Script | Trained Model |
 |----------|----------|----------|
 | 2d | 2dsimulation.ipynb | 2d0noise/2d0.05noise|
-| 1d | 1dsimulation.py | checkpoint |
+| 1d | 1dsimulation.ipynb | 1d00noise/1d001noise |
 
 You can directly get the trained model from checkpoint or you can run 2dsimulation.py or 1dsimulation.py to get the model. The data in 2d equation is generated from initcsc2d.py and initb2815.py in pedtools of aTEAM. For 1d equation, we use data in the data file.
 
